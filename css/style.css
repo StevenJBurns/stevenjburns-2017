@@ -19,12 +19,37 @@ header {
   background: #1F1F1F;
 }
 
-nav {
+.header-logo {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
 }
 
-nav li, header h2 {
+.header-h2 {
+  margin: auto;
+  display: inline-block;
+}
+
+nav {
+  display: inline-block
+}
+
+nav ul {
+  
+}
+
+nav li {
+  margin: 4px;
+  padding: 4px;
+  width: 96px;
+  border-radius: 4px;
   text-align: center;  
   display: inline-block;
+}
+
+nav li:hover {
+  color: #000000;
+  background-color:#D7D7D7;
 }
 
 main {
