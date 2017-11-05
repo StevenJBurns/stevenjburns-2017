@@ -28,12 +28,20 @@ header {
   height: 64px;
   width: 64px;
   text-align: center;
-  /* display: table-cell; */
 }
 
 .link-logo {
   height: 48px;
   width: 48px;
+}
+
+i {
+  opacity: 0.50;
+  transition: opacity 0.25s;
+}
+
+i:hover {
+  opacity: 1.00;
 }
 
 a .fa, a:visited .fa {
