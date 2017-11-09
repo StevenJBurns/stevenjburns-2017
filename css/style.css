@@ -100,7 +100,7 @@ i:hover {
   opacity: 1.00;
 }
 
-a .fa, a:visited .fa {
+a:link .fa, a:visited .fa {
   margin-left: 12px;
   margin-right: 12px;
   color: #4286f4;
